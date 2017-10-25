@@ -6,11 +6,57 @@ box-sizing: border-box;
 html { overflow-y: scroll; }
 
 body { 
-font-family: 'Montserrat', sans-serif; 
+font-family: 'Montserrat', sans-serif!important; 
 margin: 0px;
+font-size: 14px;
 }
 
+header{
+	width: 100%;
+	border-bottom: 3px solid #e7e7e7;
+}
+.navbar-default{
+	background-color: #fff;
+}
 
+.navbar{
+	max-width: 80%;
+	margin: 0 auto;
+	border: none;
+	padding: 5px;
+	/* line-height: 35px; */
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.navbar-brand{
+	padding: 5px 0px 0px 0px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+	/* color:#fff; */
+	/* background-color: #000; */
+	background-color: #f3f7fa;
+}
+
+.logobehance{
+/* height: 20px;	 */
+}
+
+/* ---- contenu ---- */
+
+#contenu{
+	background-color: #f3f7fa;
+	width: 100%;
+}
+
+#presentation{
+	max-width: 55%;
+	margin: 0 auto;
+	text-align: left;
+	padding: 25px 0px 25px 0px;
+	font-size: 18px;
+}
 
 /* ---- grid ---- */
 

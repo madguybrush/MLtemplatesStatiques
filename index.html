@@ -5,38 +5,75 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 	<link href="animate.css" rel="stylesheet">
 		<link href="normalize.css" rel="stylesheet">
+		
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
 </head>
 <body>
 
 <header>
-	<nav>
-		
+
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#"><img src="img/logo.png" /></a>
+    </div>
+    <div class="collapse navbar-collapse navbar-right" id="Navbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li> 
+        <li><a href="#"><img class="logobehance" src="img/Behance.png" /></a></li> 
+      </ul>
+      <!-- <ul class="nav navbar-nav navbar-right"> -->
+        <!-- <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li> -->
+        <!-- <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li> -->
+      <!-- </ul> -->
+    </div>
+  </div>		
 	<nav/>
 </header>
 
-<section class="grid">
-<div class="grid-sizer"></div>
- <!--<p><button id="load-images">Load images</button></p>-->
- <div class="grid-item animated fadeInUp"><img class="hero__example-link__img" src="img/img1.jpg"></div>
-  <div class="grid-item animated fadeInUp"><img class="hero__example-link__img" src="img/img2.jpg"></div>
-  <div class="grid-item animated fadeInUp"><img class="hero__example-link__img" src="img/img3.jpg"></div>
-   <div class="grid-item animated fadeInUp"><img class="hero__example-link__img" src="img/img4.jpg"></div>
-     <div class="grid-item animated fadeInUp"><img class="hero__example-link__img" src="img/img5.jpg"></div>
-  <div class="grid-item animated fadeInUp"><img class="hero__example-link__img" src="img/img6.jpg"></div>
-  <div class="grid-item animated fadeInUp"><img class="hero__example-link__img" src="img/img7.jpg"></div>
-   <div class="grid-item animated fadeInUp"><img class="hero__example-link__img" src="img/img8.jpg"></div>
-</div>
+<section id="contenu">
+	<section id="presentation">
+		Graphiste et illustrateur indépendant, intervenant dans le champ large du design graphique, Je travaille aussi bien sur des affiches, que de l’édition, de l’identité visuelle ou bien de web design.
+N’hésitez pas à me contacter
+	</section>
+	<section id="projets">
+		<div class="grid">
+		<div class="grid-sizer"></div>
+		<!--<p><button id="load-images">Load images</button></p>-->
+			<div class="grid-item animated fadeInUp"><img class="hero__example-link__img" src="img/img1.jpg"></div>
+			<div class="grid-item animated fadeInUp"><img class="hero__example-link__img" src="img/img2.jpg"></div>
+			<div class="grid-item animated fadeInUp"><img class="hero__example-link__img" src="img/img3.jpg"></div>
+			<div class="grid-item animated fadeInUp"><img class="hero__example-link__img" src="img/img4.jpg"></div>
+			<div class="grid-item animated fadeInUp"><img class="hero__example-link__img" src="img/img5.jpg"></div>
+			<div class="grid-item animated fadeInUp"><img class="hero__example-link__img" src="img/img6.jpg"></div>
+			<div class="grid-item animated fadeInUp"><img class="hero__example-link__img" src="img/img7.jpg"></div>
+			<div class="grid-item animated fadeInUp"><img class="hero__example-link__img" src="img/img8.jpg"></div>
+		</div>
+	</section>
 
 
+</section>
+
+<footer>
+
+</footer>
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/imagesloaded.pkgd.min.js"></script>
 <script src="js/masonry.pkgd.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
 <script type="text/javascript">
 
 
