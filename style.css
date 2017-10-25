@@ -1,0 +1,66 @@
+	
+* { 
+box-sizing: border-box; 
+}
+
+html { overflow-y: scroll; }
+
+body { 
+font-family: 'Montserrat', sans-serif; 
+margin: 0px;
+}
+
+
+
+/* ---- grid ---- */
+
+.grid {
+  background: #DDD;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+	
+/* ---- .grid-item ---- */
+
+.grid-sizer,	
+.grid-item {
+  width: 25%;
+ /*min-height: 200px;*/
+  float: left;
+  //background: #D26;
+  margin: 0px;
+}
+.hero__example-link__img {
+ display: block;
+  width: 100%;
+  margin: 0px;
+}
+
+/* ---- responsive ---- */
+@media only screen and (max-width: 991px) {
+ .grid-sizer,	
+.grid-item {
+  width: 33%;
+}
+	 }
+@media only screen and (max-width: 767px) {
+ .grid-sizer,	
+.grid-item {
+  width: 50%;
+
+}
+	 }
+@media only screen and (max-width: 480px) {
+ .grid-sizer,	
+.grid-item {
+  width: 100%;
+
+}
+	 }
+.hidden{display:none;}
+	 
